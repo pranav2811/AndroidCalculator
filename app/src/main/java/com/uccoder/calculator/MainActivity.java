@@ -193,7 +193,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (operator)
                 {
-                    if (status =="multiplacition")
+                    if (status =="multiplication")
                     {
                         multiply();
                     }
@@ -228,7 +228,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (operator)
                 {
-                    if (status == "multiplacition")
+                    if (status == "multiplication")
                     {
                         multiply();
                     }
@@ -282,7 +282,7 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
-                status = "multiplacition";
+                status = "multiplication";
                 operator = false;
                 number = null;
 
@@ -299,7 +299,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if (operator)
                 {
-                    if (status == "multiplacition")
+                    if (status == "multiplication")
                     {
                         multiply();
                     }
@@ -338,7 +338,7 @@ public class MainActivity extends AppCompatActivity {
                     {
                         minus();
                     }
-                    else if (status == "multiplacition")
+                    else if (status == "multiplication")
                     {
                         multiply();
                     }
