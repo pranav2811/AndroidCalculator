@@ -67,7 +67,7 @@
             android:id="@+id/btnDivide"
             android:layout_height="80dp"
             android:layout_width="wrap_content"
-            android:text="/"
+            android:text="÷"
             android:textSize="30sp"
             android:textColor="@color/orange"
             android:backgroundTint="@color/white"
